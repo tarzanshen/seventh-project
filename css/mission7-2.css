@@ -7,9 +7,21 @@ a{
     text-decoration: none;
     color: white;
 }
+.items-font
+{
+    visibility: hidden;
+}
 .container-border
 {
     border: 1px solid transparent;
+}
+.border-bottom2
+{
+    padding-bottom: 2.5rem;
+}
+.nav-margin
+{
+    margin-top: 0.5rem;
 }
 .padding-bottom
 {
@@ -26,7 +38,7 @@ a{
     background: url(../image/it-logo.png) no-repeat;
     float: left;
     zoom: 0.5;
-    margin-top: 3%;
+    
 }
 .icon-left{
     text-align: left;
@@ -77,8 +89,9 @@ cursor: pointer;
 .bgcolor
 {
     background-color: #29b078;
-    line-height: 6;
     overflow: hidden;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 .curse
 {
@@ -195,12 +208,12 @@ cursor: pointer;
     color: white;
     text-decoration: none;
 }
-.a1
+.a1 span
 {
     box-sizing: border-box;
     border-bottom: 2px solid transparent;
 }
-.a1:hover
+.a1 span:hover
 {
     box-sizing: border-box;
     border-bottom: 2px solid white;
@@ -209,23 +222,26 @@ cursor: pointer;
 {
     color: white;
 }
-.a2:hover
+.a2 span:hover
 {
     box-sizing: border-box;
     border-bottom: 2px solid white;
 }
 
-.a3:hover
+.a3 span:hover
 {
     box-sizing: border-box;
     border-bottom: 2px solid white;
 }
-
+.a3 a:hover
+{
+    color: white;
+}
 .a2 a:hover
 {
     color: white;
 }
-.a4:hover
+.a4 span:hover
 {
     box-sizing: border-box;
     border-bottom: 2px solid white;
@@ -237,7 +253,6 @@ cursor: pointer;
     background: url(../image/it-logo.png) no-repeat;
     float: left;
     zoom: 0.5;
-    margin-top: 2%;
 }
 .middle
 {
