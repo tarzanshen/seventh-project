@@ -344,7 +344,7 @@
 @keyframes engineer-introduce
 {
     from{transform:rotateX(0deg);}
-    to{transform:rotateX(180deg);}
+    to{transform:rotateX(360deg);}
 }
 .animate:hover .engineer-introduce
 {   
