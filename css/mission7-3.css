@@ -349,12 +349,12 @@
 .animate:hover .engineer-introduce
 {   
     visibility: visible;
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 .animate2:hover .engineer-introduce
 {   
     visibility: visible;
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
 }
 .animate3:hover .engineer-introduce
 {
